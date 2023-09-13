@@ -5,11 +5,13 @@ export const Button = styled.button`
   max-width: auto;
   background-color: rgb(98 84 243);
   color: rgb(255 255 255);
-  padding: 1.4rem 2.4rem;
+  width: 98px;
+  height: 38px;
   border: none;
   text-transform: uppercase;
   text-align: center;
   cursor: pointer;
+  font-size:1.35rem;
   transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -17,7 +19,7 @@ export const Button = styled.button`
 
   &:hover,
   &:active {
-    box-shadow: 0 2rem 2rem 0 rgb(132 144 255 / 30%);
+    box-shadow: 0 1rem 2rem 0 rgb(132 144 255 / 30%);
     box-shadow: ${({ theme }) => theme.colors.shadowSupport};
     transform: scale(0.96);
   }

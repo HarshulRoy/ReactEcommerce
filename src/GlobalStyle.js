@@ -6,7 +6,9 @@ export const GlobalStyle = createGlobalStyle`
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Work Sans", sans-serif;
+  font-family: 'Kanit', sans-serif;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 
@@ -69,7 +71,7 @@ h3 {
 p, button {
   color: ${({ theme }) => theme.colors.text};
   font-size: 1.65rem;
-  line-height: 1.5;
+  line-height: 1.5rem;
   font-weight:400;
 }
 
@@ -85,7 +87,7 @@ li {
 ${"" /* resuable code section  */}
 
 .container {
-  max-width: 120rem;
+  max-width: 112rem;
   margin: 0 auto;
 }
 
@@ -96,6 +98,7 @@ ${"" /* resuable code section  */}
 
 .grid-two-column {
   grid-template-columns: repeat(2, 1fr);
+  padding: 0px 0px;
 
 }
 
