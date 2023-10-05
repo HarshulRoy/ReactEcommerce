@@ -12,7 +12,7 @@ const Cart = () => {
     return (
       <EmptyDiv>
         {/* <h3>No Item in Cart </h3> */}
-        <img src="images/empty-cart.png" alt="" />
+        <img src={require("images/empty-cart.png")} alt="" />
       </EmptyDiv>
     );
   }
