@@ -24,7 +24,7 @@ const HeroSection = ({myName}) => {
         <div className="hero-section-image">
           <figure>
             <img
-              src="images/hero.jpg"
+              src={require("images/hero.jpg")}
               alt=""
               className="img-style"
             />
